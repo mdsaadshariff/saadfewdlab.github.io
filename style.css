@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(27, 31, 37);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.hero{
+    color:white;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+section{
+    padding: 2rem;
+}
+
+.programming-languages{
+    background-color: #facc15;
+    color: beige;
+}
+
+
+table,th,td{
+    border:2px solid white;
+    padding: .5rem;
+    margin: auto;
+}
+
+
+.py-4{
+    padding-bottom:1rem;
+    padding-top: 1rem;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.justify-around{
+    justify-content: space-around;
+}
+
+.rounded-md{
+    border-radius: 8px;
+}
+
+.px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.gap-4{
+    gap: 1rem;
+}
+
+
+a{
+    background-color: beige;
+    color: black;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }a:hover{
+    transform: scale(1.01);
+}
+
+
+.bg-rose-800{
+    background-color: #f43f5e;
+}
+
+
+.bg-teal-300{
+    background-color: #14b8a6;
+
+}
+
+
+img{
+    width:300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.text-white{
+    color:white;
+}
+
+form{
+    width: 100%;
+    padding: 1rem;
+   background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 77%); 
+background-color: #a21caf;
+}
+
+input{
+    padding: 6px;
+}
+
+
+.login-button{
+    width: fit-content;
+    padding: .5rem 3rem;
+    margin:auto;
+}
